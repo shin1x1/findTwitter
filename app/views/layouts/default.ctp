@@ -29,7 +29,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 </div>
 <div id="footer">
   <p>
-    | <?php echo $html->link('開発者blog', 'http://www.1x1.jp/blog/', array('target' => '_blank')); ?> | <?php echo $html->link('Twitter', 'http://twitter.com/shin1x1', array('target' => '_blank')); ?> |<br />
+    | <?php echo $html->link(__('blog', true), 'http://www.1x1.jp/blog/', array('target' => '_blank')); ?> | <?php echo $html->link(__('Twitter', true), 'http://twitter.com/shin1x1', array('target' => '_blank')); ?> | <?php echo $html->link(__('github', true), 'http://github.com/shin1x1/findTwitter/tree/master', array('target' => '_blank')); ?> |<br />
 	  Copyright &copy; 2009 findTwitter. <br />
     Designed by <a href="http://www.freecsstemplates.org"><strong>Free CSS Templates</strong></a>
   </p>
