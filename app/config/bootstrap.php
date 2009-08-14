@@ -44,6 +44,6 @@
 Configure::write('debug', 2);
 Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9m');
 
-define('TWITTER_LANG', 'ja');
+//define('TWITTER_LANG', 'ja');
 //EOF
 ?>
